@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CoreEngine">
+      <UniqueIdentifier>{ebd26002-91b9-4ccf-b11a-bba0b135adbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="CoreEngine\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="RenderEngine">
+      <UniqueIdentifier>{034fe2aa-0606-4b04-bd42-07827c8b62f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderEngine\Header Files">
+      <UniqueIdentifier>{1dd11ac3-980a-434b-bff6-23d92baf5ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderEngine\Header Files\Loaders">
+      <UniqueIdentifier>{6463cda0-d1b6-4e47-87ff-859810955c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderEngine\Source Files">
+      <UniqueIdentifier>{e37b22e6-9463-44a5-b2a2-96473a072f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysicsEngine">
+      <UniqueIdentifier>{9c0343c3-4751-4f0e-a4ad-b830a8a19e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{76797671-52b2-464a-a04d-1691d6cd55bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header">
+      <UniqueIdentifier>{76ab9af4-24c6-448b-9910-10a0a2519828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source">
+      <UniqueIdentifier>{bd79ce0b-1d97-41c1-9ecc-fdaca410d3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestGame">
+      <UniqueIdentifier>{ed3e9737-07aa-48ba-a02a-d4f9142ef577}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="InputManager.cpp">
+      <Filter>CoreEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine.cpp">
+      <Filter>CoreEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>CoreEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_loader.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>RenderEngine\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputManager.h">
+      <Filter>CoreEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="CoreEngine.h">
+      <Filter>CoreEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>CoreEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>CoreEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>RenderEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>RenderEngine\Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>RenderEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>RenderEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>CoreEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>RenderEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGame.h">
+      <Filter>TestGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState.h">
+      <Filter>TestGame</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadUtil.h">
+      <Filter>RenderEngine\Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>RenderEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>RenderEngine\Header Files\Loaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
